@@ -5,6 +5,8 @@ import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import { Inter } from "@next/font/google";
+import Blog from "./blog/page";
+import Features from "@/components/Features";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,8 +16,11 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Brands />
+      <Features />
+
       <AboutSectionOne />
       <AboutSectionTwo />
+      <Blog />
       <Contact />
     </>
   );
