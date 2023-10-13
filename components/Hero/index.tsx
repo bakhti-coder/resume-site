@@ -1,13 +1,7 @@
 "use client";
-import { GetDataContex } from "@/context/GetContex";
 import Image from "next/image";
-import Link from "next/link";
-import { useContext } from "react";
 
 const Hero = () => {
-  const { post } = useContext(GetDataContex);
-  console.log(post);
-
   return (
     <>
       <section
@@ -26,7 +20,7 @@ const Hero = () => {
                     Ali Torabekov
                   </h1>
                   <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                    {`EXPLORE CYBER SECURITY ISSUES AND THEIR LATEST TECHNOLOGY TRENDS`}
+                    {`I'm Ali Torabekov, a Python developer. I am currently studying cyber security. The technologies I use are C++ SQL PYTHON`}
                   </p>
                 </div>
               </div>

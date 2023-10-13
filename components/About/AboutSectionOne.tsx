@@ -21,12 +21,13 @@ const AboutSectionOne = () => {
               />
 
               <div
-                className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
+                className="wow fadeInUp mb-12 max-w-[700px] lg:mb-0"
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    Skills: C++ SQL PYTHON
+                    Skills: Html, Css, Bootstrap, Tailwindcss, Sass, Git,
+                    Github, C++, SQL, PYTHON.
                   </div>
                 </div>
               </div>
@@ -41,7 +42,7 @@ const AboutSectionOne = () => {
                   src="/images/cyber.png"
                   alt="cyber-image"
                   fill
-                  className="mx-auto max-w-full lg:mr-0 rounded-2xl"
+                  className="mx-auto max-w-full rounded-2xl lg:mr-0"
                 />
               </div>
             </div>

@@ -16,19 +16,15 @@ export default function RootLayout({
       <head />
 
       <body className="dark:bg-black">
-        <GetDataContextProvider>
-          <Providers>
-            <Header />
-            {children}
-            <Footer />
-            <ScrollToTop />
-          </Providers>
-        </GetDataContextProvider>
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+          <ScrollToTop />
+        </Providers>
       </body>
     </html>
   );
 }
 
 import { Providers } from "./providers";
-import { useContext } from "react";
-import GetDataContextProvider, { GetDataContex } from "@/context/GetContex";
